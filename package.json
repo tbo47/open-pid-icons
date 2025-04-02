@@ -1,0 +1,22 @@
+{
+    "name": "open-pid-icons",
+    "version": "0.0.1",
+    "description": "A set of open-source P&ID diagram icons for use in various applications.",
+    "keywords": [
+        "P&ID"
+    ],
+    "homepage": "https://github.com/tbo47/open-pid-icons#readme",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/tbo47/open-pid-icons.git"
+    },
+    "author": "tbo47",
+    "scripts": {
+        "generate": "rm -rf svgs ; node generate-svgs.js",
+        "link": "npm link"
+    },
+    "files": [
+        "open-pid-icons.json",
+        "LIST.md"
+    ]
+}
