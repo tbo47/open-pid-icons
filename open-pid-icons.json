@@ -4,14 +4,16 @@
     "author": "tbo47",
     "license": "MIT",
     "version": "1.0.0",
-    "valve": [
+    "data": [
         {
             "name": "Hand operated gate valve",
-            "path": "m 2 17 v 30 l 70 -30 v 30 l -70 -30 z m 35 15 v -30 m -15 0 h 30"
+            "path": "m 2 17 v 30 l 70 -30 v 30 l -70 -30 z m 35 15 v -30 m -15 0 h 30",
+            "type": "valve"
         },
         {
             "name": "Gate valve",
-            "path": "m 2 2 v 30 l 70 -30 v 30 l -70 -30 m 35 15"
+            "path": "m 2 2 v 30 l 70 -30 v 30 l -70 -30 m 35 15",
+            "type": "valve"
         }
     ]
 }

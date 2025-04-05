@@ -12,8 +12,7 @@
     },
     "author": "tbo47",
     "scripts": {
-        "generate": "rm -rf svgs ; node generate-svgs.js",
-        "link": "npm link"
+        "start": "rm -rf svgs ; node generate-svgs.js"
     },
     "files": [
         "open-pid-icons.json",
