@@ -2,6 +2,11 @@
 
 This library is a set of [SVG pathes](./open-pid-icons.json) you can use in svg, canvas or [konvajs](https://konvajs.org/)
 
+Demo:
+- [Render icons on html canvas](https://jsfiddle.net/tbo47/h2zsfjx1/)
+- [Render icons with konva](https://tbo47.github.io/pid-demo/)
+- [P&ID editor](https://tbo47.github.io/command-and-control/)
+
 [Contact me](https://www.linkedin.com/in/tlassalle/) if you want to add more icons
 
 [List of SVG icons](./LIST.md)

@@ -22,7 +22,7 @@ jsonData.valve.forEach((valve) => {
     `.trim();
 
     const fileName = `${valve.name.toLowerCase().replace(/ /g, '_')}.svg`;
-    const pathFormatted = `${valve.path.toLowerCase().replace(/ /g, '_')}.svg`;
+    const pathFormatted = `${valve.path.toLowerCase().replace(/ /g, '_')}`;
     const filePath = path.join(outputDir, fileName);
 
     fs.writeFileSync(filePath, svgContent, 'utf8');
@@ -30,11 +30,8 @@ jsonData.valve.forEach((valve) => {
 
     // Add SVG reference to README content
     readmeContent += `${valve.name}\n\n`;
-    readmeContent += `<a href="https://yqnn.github.io/svg-path-editor/#P=${pathFormatted}" target="_blank">\n`;
-    readmeContent += `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="80" height="80">\n`;
-    readmeContent += `<rect width="100" height="100" fill="white" />`;
-    readmeContent += `<path d="${valve.path}" stroke="black" fill="none" stroke-width="1" />\n`;
-    readmeContent += `</svg>\n`;
+    readmeContent += `<a href="https://yqnn.github.io/svg-path-editor/#P=${pathFormatted}" target="svgeditor">\n`;
+    readmeContent += `<img src="https://raw.githubusercontent.com/tbo47/open-pid-icons/refs/heads/main/svgs/${fileName}">\n`;
     readmeContent += `</a>\n\n`;
 });
 
