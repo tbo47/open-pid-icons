@@ -18,3 +18,9 @@ Hand operated globe valve
 <img src="https://raw.githubusercontent.com/tbo47/open-pid-icons/refs/heads/main/svgs/hand_operated_globe_valve.svg">
 </a>
 
+Rotary valve
+
+<a href="https://yqnn.github.io/svg-path-editor/#P=m_2_37_h_35_m_0_-35_v_70_m_0_-35_a_35_35_0_0_1_70_0_a_35_35_0_0_1_-70_0_m_70_-35_v_70_m_0_-35_h_35" target="svgeditor">
+<img src="https://raw.githubusercontent.com/tbo47/open-pid-icons/refs/heads/main/svgs/rotary_valve.svg">
+</a>
+
