@@ -24,3 +24,9 @@ Rotary valve
 <img src="https://raw.githubusercontent.com/tbo47/open-pid-icons/refs/heads/main/svgs/rotary_valve.svg">
 </a>
 
+Check valve
+
+<a href="https://yqnn.github.io/svg-path-editor/#P=m_2_37_h_45_m_0_35_v_-70_l_70_70_l_-10_-2_m_10_2_l_-2_-10_m_2_10_v_-70_m_0_35_h_45" target="svgeditor">
+<img src="https://raw.githubusercontent.com/tbo47/open-pid-icons/refs/heads/main/svgs/check_valve.svg">
+</a>
+
