@@ -30,3 +30,9 @@ Check valve
 <img src="https://raw.githubusercontent.com/tbo47/open-pid-icons/refs/heads/main/svgs/check_valve.svg">
 </a>
 
+Tank
+
+<a href="https://yqnn.github.io/svg-path-editor/#P=m_2_2_v_210_a_300_400_0_0_0_140_0_v_-210__a_300_400_0_0_0_-140_0_" target="svgeditor">
+<img src="https://raw.githubusercontent.com/tbo47/open-pid-icons/refs/heads/main/svgs/tank.svg">
+</a>
+
