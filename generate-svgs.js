@@ -14,9 +14,10 @@ if (!fs.existsSync(outputDir)) {
 // Generate SVG files for each valve
 let readmeContent = `## Generated SVG Icons\n\n`;
 jsonData.data.forEach((valve) => {
+    const { width, height } = valve;
     const svgContent = `
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="80" height="80">
-    <rect width="100" height="100" fill="white" />
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width+2} ${height+2}" width="${width+2}" height="${height+2}">
+    <rect width="${width+2}" height="${height+2}" fill="white" />
     <path d="${valve.path}" stroke="black" fill="none" stroke-width="1" />
 </svg>
     `.trim();
